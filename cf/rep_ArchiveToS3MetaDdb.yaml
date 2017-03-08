@@ -1,0 +1,21 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: An Amazon S3 trigger that retrieves metadata for the object that has
+  been updated.
+Resources:
+  ArchiveToS3MetaDdb:
+    Properties:
+      CodeUri: s3://dev-processarchive-113jfdk89/ArchiveToS3MetaDdb-f4257ccc-efaf-4fd9-ae0e-cb6cd8e02d16.zip
+      Description: An Amazon S3 trigger that retrieves metadata for the object that
+        has been updated.
+      Environment:
+        Variables:
+          dynamoDbTable: dev-ProcessingArchive
+          s3bucket: dev-processarchive-113jfdk89
+      Handler: index.handler
+      MemorySize: 128
+      Name: ArchiveToS3MetaDdb
+      Role: arn:aws:iam::970386504547:role/Processor
+      Runtime: nodejs4.3
+      Timeout: 3
+    Type: AWS::Serverless::Function
+Transform: AWS::Serverless-2016-10-31

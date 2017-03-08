@@ -1,0 +1,28 @@
+{
+  "name": "proceso-coordinate-capture",
+  "version": "1.0.0",
+  "description": "package to install capture and correlate function within coordinate",
+  "main": "CaptureAndCorrelate.js",
+  "dependencies": {
+    "uuid": "^3.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cass-bonner/aminalz-ux.git"
+  },
+  "keywords": [
+    "correlate",
+    "lambda",
+    "function"
+  ],
+  "author": "Cassandra Bonner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cass-bonner/aminalz-ux/issues"
+  },
+  "homepage": "https://github.com/cass-bonner/aminalz-ux#readme"
+}

@@ -1,0 +1,4 @@
+      Environment:
+        Variables:
+          dynamoDbTable: dev-ProcessingArchive
+          s3bucket: dev-processarchive-113jfdk89

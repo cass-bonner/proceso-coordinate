@@ -1,0 +1,31 @@
+{
+  "AWSTemplateFormatVersion" : "2010-09-09",
+  "Resources" : {
+    "inferDynamoDBTable" : {
+      "Type" : "AWS::DynamoDB::Table",
+      "Properties" : {
+        "TableName" : "InferArchive",
+        "AttributeDefinitions": [ { 
+          "AttributeName" : "archiveId" ,
+          "AttributeType" : "S" 
+        }
+         ],
+        "KeySchema": [
+          { "AttributeName": "archiveId", "KeyType": "HASH" },
+        ],
+        "ProvisionedThroughput" : {
+          "ReadCapacityUnits" : "5",
+          "WriteCapacityUnits" : "5"
+        }                
+      }
+    }
+  },
+ 
+  "Outputs" : {
+    "TableName" : {
+      "Value" : {"Ref" : "inferDynamoDBTable"}
+    }
+  }
+}
+
+

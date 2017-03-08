@@ -1,0 +1,4 @@
+      Environment:
+        Variables:
+          dynamoDbTable: qa-ProcessingArchive
+          s3bucket: qa-processarchive-Aiwioewr

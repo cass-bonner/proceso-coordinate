@@ -1,0 +1,20 @@
+# create dynamo db table
+
+aws cloudformation create-stack --template-body file://dynamodb.cf --stack-name aiddb
+
+# populate dynamo db table with data
+
+
+Deploy audienceInteractive Functions
+
+# package up and deploy lambda function
+aws  cloudformation package  --template-file ArchiveToS3MetaDdb.yaml --output-template-file rep_ArchiveToS3MetaDdb.yaml --s3-bucket dev-processarchive-113jfdk89 
+aws cloudformation deploy --template-file rep_ArchiveToS3MetaDdb.yaml --stack-name ai --capabilities CAPABILITY_IAM
+
+
+Deploy API Gateway 
+
+One-off cognito setup.
+
+
+
