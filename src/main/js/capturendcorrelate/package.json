@@ -4,11 +4,22 @@
   "description": "package to install capture and correlate function within coordinate",
   "main": "CaptureAndCorrelate.js",
   "dependencies": {
+    "build-bundle": "^2.0.8",
+    "common": "file:///Users/bonnerca/git/aminalz/proceso-coordinate/src/main/js/common",
+    "grunt-cli": "^1.2.0",
     "uuid": "^3.0.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "aws-lambda-mock-context": "^3.0.1",
+    "chai": "^3.5.0",
+    "grunt": "^1.0.1",
+    "grunt-contrib-concat": "^1.0.1",
+    "mocha": "^3.2.0"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "bundle": "build-bundle . -o dist -v 1.0.0",
+    "bundle-watch": "build-bundle . -o dist -v 1.0.0 -w",
+    "test": "mocha test"
   },
   "repository": {
     "type": "git",
