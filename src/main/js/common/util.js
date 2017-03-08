@@ -1,10 +1,10 @@
 const uuidV4 = require('uuid/v4');
 
-export function setup(correlationId) {
+exports.setup = function setup(correlationId) {
   setCorrelationLog(correlationId); 
 }
 
-export function setup() {
+exports.initCorrelation =function initCorrelation() {
   var correlationId= uuidV4();
   setCorrelationLog(correlationId); 
   return correlationId;
