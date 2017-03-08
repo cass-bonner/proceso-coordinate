@@ -1,4 +1,4 @@
-var common= require('../common/util');
+var common= require('common');
 exports.handler = (event, context, callback) => {
     
     // perform any setup - here prepending correlationId in logs.
