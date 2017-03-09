@@ -1,0 +1,98 @@
+{
+   "Comment": "Example Process with parallel and ordering logic",
+  "StartAt": "CaptureAndCorrelate",
+  "States": {
+    "CaptureAndCorrelate": {
+      "Type": "Task",
+      "Resource" : "arn:aws:lambda:us-west-2:970386504547:function:CaptureAndCorrelate",
+      "Next": "MetaAndProcess"
+    },
+    "MetaAndProcess": {
+      "Type": "Parallel",
+      "Next": "Final State",
+      "Branches": [
+        {
+          "StartAt": "DetermineProcessor",
+          "States": {
+            "DetermineProcessor": {
+              "Type": "Task",
+              "Next": "InvokeProcessor",
+              "Resource": "arn:aws:lambda:us-west-2:970386504547:function:DetermineProcessor"
+            },
+            
+
+            "InvokeProcessor": {
+              "Type": "Choice",
+              "Choices": [
+                  {
+                    "Variable": "$.processingType",
+                    "StringEquals": "DataProcessor",
+                    "Next": "DataProcessor"
+                  },
+                  {
+                    "Variable": "$.processingType",
+                    "StringEquals": "ImageProcessor",
+                    "Next": "ImageProcessor"
+                  },
+                  {
+                    "Variable": "$.processingType",
+                    "StringEquals": "Notify",
+                    "Next": "Notify"
+                  },
+                  {
+                    "Variable": "$.processingType",
+                    "StringEquals": "TaskProcessor",
+                    "Next": "TaskProcessor"
+                  },
+                  {
+                    "Variable": "$.processingType",
+                    "StringEquals": "Dispatch",
+                    "Next": "Dispatch"
+                  }
+              ]
+            }, 
+            "DataProcessor": {
+              "Type": "Task",
+              "Resource": "arn:aws:lambda:us-west-2:970386504547:function:InvokeImgStepFunction",
+              "End": true
+            },
+            "ImageProcessor": {
+              "Type": "Task",
+              "Resource": "arn:aws:lambda:us-west-2:970386504547:function:InvokeImgStepFunction",
+              "End": true
+            },
+            "Notify": {
+              "Type": "Task",
+              "Resource": "arn:aws:lambda:us-west-2:970386504547:function:InvokeImgStepFunction",
+              "End": true
+            },
+            "TaskProcessor": {
+              "Type": "Task",
+              "Resource": "arn:aws:lambda:us-west-2:970386504547:function:InvokeImgStepFunction",
+              "End": true
+            },
+            "Dispatch": {
+              "Type": "Task",
+              "Resource": "arn:aws:lambda:us-west-2:970386504547:function:InvokeImgStepFunction",
+              "End": true
+            }
+          }
+        },
+        {
+          "StartAt": "ExtractMeta",
+          "States": {
+            "ExtractMeta": {
+              "Type": "Task",
+               "Resource": "arn:aws:lambda:us-west-2:970386504547:function:ExtractMeta",
+              "End": true
+            }
+          }
+        }
+      ]
+    },
+    "Final State": {
+      "Type": "Pass",
+      "End": true
+    }
+  }
+}
