@@ -1,0 +1,15 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: An AWS Serverless Specification template describing your function.
+Resources:
+  InvokeImgStepFunction:
+    Properties:
+      CodeUri: s3://proceso-deployments-8927459/787ce1c34815fb2d2f7096783337f28c
+      Description: ''
+      FunctionName: InvokeImgStepFunction
+      Handler: index.handler
+      MemorySize: 128
+      Role: arn:aws:iam::970386504547:role/Processor
+      Runtime: nodejs4.3
+      Timeout: 300
+    Type: AWS::Serverless::Function
+Transform: AWS::Serverless-2016-10-31

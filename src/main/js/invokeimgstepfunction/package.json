@@ -1,0 +1,28 @@
+{
+  "name": "invokeimgstepfunction",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cass-bonner/proceso-coordinate.git"
+  },
+  "keywords": [
+    "invoke",
+    "step",
+    "function",
+    "statemachine"
+  ],
+  "author": "Cassandra Bonner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cass-bonner/proceso-coordinate/issues"
+  },
+  "homepage": "https://github.com/cass-bonner/proceso-coordinate#readme",
+  "dependencies": {
+    "aws-sdk": "^2.25.0"
+  }
+}
