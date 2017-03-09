@@ -1,0 +1,15 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: An AWS Serverless Specification template describing your function.
+Resources:
+  CaptureAndCorrelate:
+    Properties:
+      CodeUri: s3://proceso-deployments-8927459/75b3c7a6ffd4e98a5f814ce9d993f2a7
+      Description: ''
+      FunctionName: CaptureAndCorrelate
+      Handler: index.handler
+      MemorySize: 128
+      Role: arn:aws:iam::970386504547:role/Processor
+      Runtime: nodejs4.3
+      Timeout: 3
+    Type: AWS::Serverless::Function
+Transform: AWS::Serverless-2016-10-31

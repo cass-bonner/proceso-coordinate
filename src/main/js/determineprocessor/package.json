@@ -1,0 +1,30 @@
+{
+  "name": "determineprocessor",
+  "version": "1.0.0",
+  "description": "Determines the type of processor",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cass-bonner/proceso-coordinate.git"
+  },
+  "keywords": [
+    "proceso",
+    "coordinate"
+  ],
+  "author": "Cassandra Bonner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cass-bonner/proceso-coordinate/issues"
+  },
+  "homepage": "https://github.com/cass-bonner/proceso-coordinate#readme",
+  "dependencies": {
+    "aws-sdk": "^2.25.0",
+    "common": "file:///Users/bonnerca/git/aminalz/proceso-coordinate/src/main/js/common",
+    "file-type": "^4.1.0",
+    "read-chunk": "^2.0.0",
+    "uuid": "^3.0.1"
+  }
+}
