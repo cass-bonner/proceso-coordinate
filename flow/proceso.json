@@ -4,10 +4,10 @@
   "States": {
     "CaptureAndCorrelate": {
       "Type": "Task",
-      "Resource" : "arn:aws:lambda:ap-northeast-1:970386504547:function:CaptureAndCorrelate",
-      "Next": "ArchiveAndProcess"
+      "Resource" : "arn:aws:lambda:us-west-2:970386504547:function:CaptureAndCorrelate",
+      "Next": "MetaAndProcess"
     },
-    "ArchiveAndProcess": {
+    "MetaAndProcess": {
       "Type": "Parallel",
       "Next": "Final State",
       "Branches": [
@@ -17,21 +17,32 @@
             "DetermineProcessor": {
               "Type": "Task",
               "Next": "InvokeProcessor",
-              "Resource": "arn:aws:lambda:ap-northeast-1:970386504547:function:DetermineProcessor"
+              "Resource": "arn:aws:lambda:us-west-2:970386504547:function:DetermineProcessor"
             },
+            
 
             "InvokeProcessor": {
               "Type": "Choice",
               "Choices": [
                   {
                     "Variable": "$.processingType",
-                    "StringEquals": "OrderedProcessor",
-                    "Next": "OrderedProcessor"
+                    "StringEquals": "DataProcessor",
+                    "Next": "DataProcessor"
                   },
                   {
                     "Variable": "$.processingType",
-                    "StringEquals": "LowLatency",
-                    "Next": "LowLatency"
+                    "StringEquals": "ImageProcessor",
+                    "Next": "ImageProcessor"
+                  },
+                  {
+                    "Variable": "$.processingType",
+                    "StringEquals": "Notify",
+                    "Next": "Notify"
+                  },
+                  {
+                    "Variable": "$.processingType",
+                    "StringEquals": "TaskProcessor",
+                    "Next": "TaskProcessor"
                   },
                   {
                     "Variable": "$.processingType",
@@ -40,29 +51,39 @@
                   }
               ]
             }, 
-            "OrderedProcessor": {
+            "DataProcessor": {
               "Type": "Task",
-              "Resource": "arn:aws:lambda:ap-northeast-1:970386504547:function:OrderedProcessor",
+              "Resource": "arn:aws:lambda:us-west-2:970386504547:function:InvokeImgStepFunction",
               "End": true
             },
-            "LowLatency": {
+            "ImageProcessor": {
               "Type": "Task",
-              "Resource": "arn:aws:lambda:ap-northeast-1:970386504547:function:LowLatencyProcessor",
+              "Resource": "arn:aws:lambda:us-west-2:970386504547:function:InvokeImgStepFunction",
+              "End": true
+            },
+            "Notify": {
+              "Type": "Task",
+              "Resource": "arn:aws:lambda:us-west-2:970386504547:function:InvokeImgStepFunction",
+              "End": true
+            },
+            "TaskProcessor": {
+              "Type": "Task",
+              "Resource": "arn:aws:lambda:us-west-2:970386504547:function:InvokeImgStepFunction",
               "End": true
             },
             "Dispatch": {
               "Type": "Task",
-              "Resource": "arn:aws:lambda:ap-northeast-1:970386504547:function:Dispatchor",
+              "Resource": "arn:aws:lambda:us-west-2:970386504547:function:InvokeImgStepFunction",
               "End": true
             }
           }
         },
         {
-          "StartAt": "Archive",
+          "StartAt": "ExtractMeta",
           "States": {
-            "Archive": {
+            "ExtractMeta": {
               "Type": "Task",
-               "Resource": "arn:aws:lambda:ap-northeast-1:970386504547:function:ArchiveAndMeta",
+               "Resource": "arn:aws:lambda:us-west-2:970386504547:function:ExtractMeta",
               "End": true
             }
           }
