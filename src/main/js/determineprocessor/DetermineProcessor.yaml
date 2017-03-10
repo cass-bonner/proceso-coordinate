@@ -3,7 +3,7 @@ Description: An AWS Serverless Specification template describing your function.
 Resources:
   DetermineProcessor:
     Properties:
-      CodeUri: s3://proceso-deployments-8927459/399cad08158179bcdbd8208048773e6b
+      CodeUri: s3://proceso-deployments-8927459/3f308e104d51ca1a5ffd7acc87105022
       Description: ''
       FunctionName: DetermineProcessor
       Handler: index.handler

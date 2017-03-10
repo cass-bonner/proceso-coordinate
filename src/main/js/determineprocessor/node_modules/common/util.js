@@ -12,11 +12,13 @@ exports.initCorrelation =function initCorrelation() {
 
 function setCorrelationLog(correlationId) {
 
+  console.log('setting correlation id to: ',correlationId);
+
   (function(){
     if(console.log){
         var old = console.log;
         console.log = function(){
-            Array.prototype.unshift.call(arguments, 'correlationId: ',correlationId);
+            Array.prototype.unshift.call(arguments, ' ',correlationId);
             old.apply(this, arguments)
         }
     }

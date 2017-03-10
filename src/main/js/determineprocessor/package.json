@@ -24,6 +24,7 @@
     "aws-sdk": "^2.25.0",
     "common": "file:///Users/bonnerca/git/aminalz/proceso-coordinate/src/main/js/common",
     "file-type": "^4.1.0",
+    "http": "0.0.0",
     "read-chunk": "^2.0.0",
     "uuid": "^3.0.1"
   }
