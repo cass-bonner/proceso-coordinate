@@ -3,8 +3,11 @@ Description: An AWS Serverless Specification template describing your function.
 Resources:
   InvokeImgStepFunction:
     Properties:
-      CodeUri: s3://proceso-deployments-8927459/787ce1c34815fb2d2f7096783337f28c
+      CodeUri: s3://proceso-deployments-8927459/a0c53eace874ee523914aa0b50357e17
       Description: ''
+      Environment:
+        Variables:
+          stateMachineArn: arn:aws:states:us-west-2:970386504547:stateMachine:ImageProcStateMachine-MWZYPTDOWJHH
       FunctionName: InvokeImgStepFunction
       Handler: index.handler
       MemorySize: 128

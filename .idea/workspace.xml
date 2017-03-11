@@ -2,28 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5dee7be9-f150-4fd7-918e-1c91d66b4a32" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cf/functions/CaptureAndCorrelate.yaml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cf/functions/DetermineProcessor.yaml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/js/functions/ArchiveAndMeta.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/js/functions/DetermineProcessor.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/js/node_modules/.bin/uuid" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/js/node_modules/uuid/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/js/node_modules/uuid/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/js/node_modules/uuid/AUTHORS" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/js/node_modules/uuid/HISTORY.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/js/node_modules/uuid/LICENSE.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/js/node_modules/uuid/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/js/node_modules/uuid/bin/uuid" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/js/node_modules/uuid/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/js/node_modules/uuid/lib/bytesToUuid.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/js/node_modules/uuid/lib/rng-browser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/js/node_modules/uuid/lib/rng.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/js/node_modules/uuid/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/js/node_modules/uuid/test/mocha.opts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/js/node_modules/uuid/test/test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/js/node_modules/uuid/v1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/js/node_modules/uuid/v4.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/js/invokeimgstepfunction/node_modules/uuid/uuid.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/js/capturendcorrelate/CaptureAndCorrelate.yaml" afterPath="$PROJECT_DIR$/src/main/js/capturendcorrelate/CaptureAndCorrelate.yaml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/js/capturendcorrelate/index.js" afterPath="$PROJECT_DIR$/src/main/js/capturendcorrelate/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/js/capturendcorrelate/test/index.js" afterPath="$PROJECT_DIR$/src/main/js/capturendcorrelate/test/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/js/determineprocessor/DetermineProcessor.yaml" afterPath="$PROJECT_DIR$/src/main/js/determineprocessor/DetermineProcessor.yaml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/js/determineprocessor/index.js" afterPath="$PROJECT_DIR$/src/main/js/determineprocessor/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/js/determineprocessor/package.json" afterPath="$PROJECT_DIR$/src/main/js/determineprocessor/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/js/determineprocessor/test/index.js" afterPath="$PROJECT_DIR$/src/main/js/determineprocessor/test/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/js/invokeimgstepfunction/InvokeImgStepFunction.yaml" afterPath="$PROJECT_DIR$/src/main/js/invokeimgstepfunction/InvokeImgStepFunction.yaml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/js/invokeimgstepfunction/deploy.sh" afterPath="$PROJECT_DIR$/src/main/js/invokeimgstepfunction/deploy.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/js/invokeimgstepfunction/index.js" afterPath="$PROJECT_DIR$/src/main/js/invokeimgstepfunction/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/js/invokeimgstepfunction/node_modules/common/package.json" afterPath="$PROJECT_DIR$/src/main/js/invokeimgstepfunction/node_modules/common/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/js/invokeimgstepfunction/node_modules/common/util.js" afterPath="$PROJECT_DIR$/src/main/js/invokeimgstepfunction/node_modules/common/util.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/js/invokeimgstepfunction/node_modules/uuid/.npmignore" afterPath="$PROJECT_DIR$/src/main/js/invokeimgstepfunction/node_modules/uuid/.npmignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/js/invokeimgstepfunction/node_modules/uuid/.travis.yml" afterPath="$PROJECT_DIR$/src/main/js/invokeimgstepfunction/node_modules/uuid/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/js/invokeimgstepfunction/node_modules/uuid/HISTORY.md" afterPath="$PROJECT_DIR$/src/main/js/invokeimgstepfunction/node_modules/uuid/HISTORY.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/js/invokeimgstepfunction/node_modules/uuid/LICENSE.md" afterPath="$PROJECT_DIR$/src/main/js/invokeimgstepfunction/node_modules/uuid/LICENSE.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/js/invokeimgstepfunction/node_modules/uuid/README.md" afterPath="$PROJECT_DIR$/src/main/js/invokeimgstepfunction/node_modules/uuid/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/js/invokeimgstepfunction/node_modules/uuid/lib/rng-browser.js" afterPath="$PROJECT_DIR$/src/main/js/invokeimgstepfunction/node_modules/uuid/lib/rng-browser.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/js/invokeimgstepfunction/node_modules/uuid/lib/rng.js" afterPath="$PROJECT_DIR$/src/main/js/invokeimgstepfunction/node_modules/uuid/lib/rng.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/js/invokeimgstepfunction/node_modules/uuid/package.json" afterPath="$PROJECT_DIR$/src/main/js/invokeimgstepfunction/node_modules/uuid/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/js/invokeimgstepfunction/package.json" afterPath="$PROJECT_DIR$/src/main/js/invokeimgstepfunction/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/js/invokeimgstepfunction/test/index.js" afterPath="$PROJECT_DIR$/src/main/js/invokeimgstepfunction/test/index.js" />
     </list>
     <ignored path="proceso-coordinate.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -44,21 +46,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ArchiveAndMeta.yaml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ArchiveAndMeta.yaml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/env/dev/ArchiveAndMeta.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="proceso.json" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/flow/proceso.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-150">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="60">
+              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -166,20 +158,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="proceso-coordinate" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="proceso-coordinate" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="flow" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -439,14 +417,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/env/dev/ArchiveAndMeta.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cf/functions/CaptureAndCorrelate.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -467,6 +437,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-150">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/env/dev/ArchiveAndMeta.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>

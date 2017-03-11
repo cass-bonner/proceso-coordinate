@@ -11,23 +11,12 @@ exports.handler = (event, context, callback) => {
    //TODO change name to processing instructions.
    var processingInstructions =event.name;
 
-
-    // string out bucket name and filename from url.
-    const origStr= s3Path.substring(s3Path.indexOf("https://s3.amazonaws.com/") + 25);
-    const bucket = origStr.substring(0,origStr.indexOf(":"));
-    console.log('bucket:', bucket);
-    const filename=origStr.substring(origStr.indexOf(":"))+1;
-    console.log('filename:',filename);
-
-    
     var response={};
     response["correlationId"]=correlationId;
     response["s3Path"]=s3Path;
     response["type"]=type;
     response["hashtag"]=hashtag;
     response["processingInstructions"]=processingInstructions;
-    response["filename"]=filename;
-    response["bucket"]=bucket;
     
     console.log('returning',response);
     callback(null, response);

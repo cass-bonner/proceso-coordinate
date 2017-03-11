@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/cass-bonner/proceso-coordinate#readme",
   "dependencies": {
-    "aws-sdk": "^2.25.0"
+    "aws-sdk": "^2.25.0",
+    "uuid": "^3.0.1"
   }
 }

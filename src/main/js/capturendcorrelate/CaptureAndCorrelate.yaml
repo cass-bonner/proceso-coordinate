@@ -3,7 +3,7 @@ Description: An AWS Serverless Specification template describing your function.
 Resources:
   CaptureAndCorrelate:
     Properties:
-      CodeUri: s3://proceso-deployments-8927459/271bde4442926474617c5941a967abef
+      CodeUri: s3://proceso-deployments-8927459/2d174f6b4a054ddcaddaa393e55354b1
       Description: ''
       FunctionName: CaptureAndCorrelate
       Handler: index.handler
