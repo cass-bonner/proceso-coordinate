@@ -35,5 +35,9 @@
   "bugs": {
     "url": "https://github.com/cass-bonner/aminalz-ux/issues"
   },
-  "homepage": "https://github.com/cass-bonner/aminalz-ux#readme"
+  "homepage": "https://github.com/cass-bonner/aminalz-ux#readme",
+  "bundledDependencies": [
+    "common",
+    "uuid"
+  ]
 }

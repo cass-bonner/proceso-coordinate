@@ -4,7 +4,7 @@
   "States": {
     "CaptureAndCorrelate": {
       "Type": "Task",
-      "Resource" : "arn:aws:lambda:us-west-2:970386504547:function:CaptureAndCorrelate",
+      "Resource" : "arn:aws:lambda:us-west-2:970386504547:function:DEV-CaptureAndCorrelate",
       "Next": "MetaAndProcess"
     },
     "MetaAndProcess": {
@@ -17,7 +17,7 @@
             "DetermineProcessor": {
               "Type": "Task",
               "Next": "InvokeProcessor",
-              "Resource": "arn:aws:lambda:us-west-2:970386504547:function:DetermineProcessor"
+              "Resource": "arn:aws:lambda:us-west-2:970386504547:function:DEV-DetermineProcessor"
             },
             
 
@@ -53,27 +53,27 @@
             }, 
             "DataProcessor": {
               "Type": "Task",
-              "Resource": "arn:aws:lambda:us-west-2:970386504547:function:InvokeImgStepFunction",
+              "Resource": "arn:aws:lambda:us-west-2:970386504547:function:DEV-InvokeImgStepFunction",
               "End": true
             },
             "ImageProcessor": {
               "Type": "Task",
-              "Resource": "arn:aws:lambda:us-west-2:970386504547:function:InvokeImgStepFunction",
+              "Resource": "arn:aws:lambda:us-west-2:970386504547:function:DEV-InvokeImgStepFunction",
               "End": true
             },
             "Notify": {
               "Type": "Task",
-              "Resource": "arn:aws:lambda:us-west-2:970386504547:function:InvokeImgStepFunction",
+              "Resource": "arn:aws:lambda:us-west-2:970386504547:function:DEV-InvokeImgStepFunction",
               "End": true
             },
             "TaskProcessor": {
               "Type": "Task",
-              "Resource": "arn:aws:lambda:us-west-2:970386504547:function:InvokeImgStepFunction",
+              "Resource": "arn:aws:lambda:us-west-2:970386504547:function:DEV-InvokeImgStepFunction",
               "End": true
             },
             "Dispatch": {
               "Type": "Task",
-              "Resource": "arn:aws:lambda:us-west-2:970386504547:function:InvokeImgStepFunction",
+              "Resource": "arn:aws:lambda:us-west-2:970386504547:function:DEV-InvokeImgStepFunction",
               "End": true
             }
           }
@@ -83,7 +83,7 @@
           "States": {
             "ExtractMeta": {
               "Type": "Task",
-               "Resource": "arn:aws:lambda:us-west-2:970386504547:function:ExtractMeta",
+               "Resource": "arn:aws:lambda:us-west-2:970386504547:function:DEV-ExtractMeta",
               "End": true
             }
           }

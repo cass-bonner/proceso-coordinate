@@ -1,0 +1,15 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: An AWS Serverless Specification template describing your function.
+Resources:
+  DetermineProcessor:
+    Properties:
+      CodeUri: s3://proceso-deployments-8927459/d9294a6e467e060dfb3f0565cc7d55b4
+      Description: ''
+      FunctionName: DEV-DetermineProcessor
+      Handler: index.handler
+      MemorySize: 128
+      Role: arn:aws:iam::970386504547:role/Processor
+      Runtime: nodejs4.3
+      Timeout: 300
+    Type: AWS::Serverless::Function
+Transform: AWS::Serverless-2016-10-31

@@ -1,11 +1,5 @@
-const readChunk = require('read-chunk');
-const fileType = require('file-type');
 const aws = require('aws-sdk');
 const common = require('common');
-const http = require('http');
-var fs = require('fs');
-var download = require('download-file')
-
 
 exports.handler = (event, context, callback) => {
     

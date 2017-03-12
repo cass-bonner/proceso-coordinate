@@ -1,0 +1,19 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: An AWS Serverless Specification template describing your function.
+Resources:
+  ExtractMeta:
+    Properties:
+      CodeUri: target 
+      Description: ''
+      Environment:
+        Variables:
+          dynamoDbTable: qa-ProcessingArchive
+          s3bucket: qa-processarchive-113jfdk89
+      Function: DEV-ExtractMeta
+      Handler: index.handler
+      MemorySize: 1536
+      Role: arn:aws:iam::970386504547:role/Processor
+      Runtime: nodejs4.3
+      Timeout: 3
+    Type: AWS::Serverless::Function
+Transform: AWS::Serverless-2016-10-31

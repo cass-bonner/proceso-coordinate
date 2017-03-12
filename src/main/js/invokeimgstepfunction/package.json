@@ -24,6 +24,11 @@
   "homepage": "https://github.com/cass-bonner/proceso-coordinate#readme",
   "dependencies": {
     "aws-sdk": "^2.25.0",
+    "common": "file:///Users/bonnerca/git/aminalz/proceso-coordinate/src/main/js/common",
     "uuid": "^3.0.1"
-  }
+  },
+  "bundledDependencies": [
+    "uuid",
+    "common"
+  ]
 }

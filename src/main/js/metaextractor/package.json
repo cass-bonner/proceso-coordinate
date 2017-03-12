@@ -4,7 +4,8 @@
   "description": "module to extract meta data from s3 and write to dynamo db for querying.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test"
+    "test": "mocha test",
+    "pack-zip": "pack-zip"
   },
   "repository": {
     "type": "git",
@@ -22,10 +23,15 @@
   "homepage": "https://github.com/cass-bonner/proceso-coordinate#readme",
   "devDependencies": {
     "grunt-aws": "^0.6.2",
-    "grunt-contrib-connect": "^1.0.2"
+    "grunt-contrib-connect": "^1.0.2",
+    "pack-zip": "^0.1.0"
   },
   "dependencies": {
     "common": "file:///Users/bonnerca/git/aminalz/proceso-coordinate/src/main/js/common",
     "uuid": "^3.0.1"
-  }
+  },
+  "bundledDependencies": [
+    "common",
+    "uuid"
+  ]
 }
