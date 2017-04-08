@@ -17,7 +17,8 @@
             "DetermineProcessor": {
               "Type": "Task",
               "Next": "InvokeProcessor",
-              "Resource": "arn:aws:lambda:us-west-2:970386504547:function:DEV-DetermineProcessor"
+              "Resource": "arn:aws:lambda:us-west-2:970386504547:function:DEV-DetermineProcessor",
+              "ResultPath": "$.res"
             },
             
 
@@ -25,22 +26,17 @@
               "Type": "Choice",
               "Choices": [
                   {
-                    "Variable": "$.processingType",
+                    "Variable": "$.res.processingType",
                     "StringEquals": "DataProcessor",
                     "Next": "DataProcessor"
                   },
                   {
-                    "Variable": "$.processingType",
+                    "Variable": "$.res.processingType",
                     "StringEquals": "ImageProcessor",
                     "Next": "ImageProcessor"
                   },
                   {
-                    "Variable": "$.processingType",
-                    "StringEquals": "Notify",
-                    "Next": "Notify"
-                  },
-                  {
-                    "Variable": "$.processingType",
+                    "Variable": "$.res.processingType",
                     "StringEquals": "TaskProcessor",
                     "Next": "TaskProcessor"
                   },
@@ -50,10 +46,10 @@
                     "Next": "Dispatch"
                   }
               ]
-            }, 
+            },
             "DataProcessor": {
               "Type": "Task",
-              "Resource": "arn:aws:lambda:us-west-2:970386504547:function:DEV-InvokeImgStepFunction",
+              "Resource": "arn:aws:lambda:us-west-2:970386504547:function:DEV-InvokeDataProcessor",
               "End": true
             },
             "ImageProcessor": {
@@ -61,14 +57,9 @@
               "Resource": "arn:aws:lambda:us-west-2:970386504547:function:DEV-InvokeImgStepFunction",
               "End": true
             },
-            "Notify": {
-              "Type": "Task",
-              "Resource": "arn:aws:lambda:us-west-2:970386504547:function:DEV-InvokeImgStepFunction",
-              "End": true
-            },
             "TaskProcessor": {
               "Type": "Task",
-              "Resource": "arn:aws:lambda:us-west-2:970386504547:function:DEV-InvokeImgStepFunction",
+              "Resource": "arn:aws:lambda:us-west-2:970386504547:function:DEV-TaskProcessor",
               "End": true
             },
             "Dispatch": {

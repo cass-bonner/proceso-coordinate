@@ -2,7 +2,8 @@ var common= require('common');
 exports.handler = (event, context, callback) => {
 
     // perform any setup - here prepending correlationId in logs.
-    var correlationId=common.initCorrelation();
+    var functionName = context.functionName;
+    var correlationId=common.initCorrelation(functionName);
 
    var s3Path = event.resourcefile;
    var type = event.type;

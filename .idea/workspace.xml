@@ -1,31 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/../aminalz-ux/app/src/pages/processed-resources/photos.component.html" line="10" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="5dee7be9-f150-4fd7-918e-1c91d66b4a32" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/js/invokeimgstepfunction/node_modules/uuid/uuid.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/js/capturendcorrelate/CaptureAndCorrelate.yaml" afterPath="$PROJECT_DIR$/src/main/js/capturendcorrelate/CaptureAndCorrelate.yaml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flow/proceso-coordinate.json" afterPath="$PROJECT_DIR$/flow/proceso-coordinate.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/js/capturendcorrelate/index.js" afterPath="$PROJECT_DIR$/src/main/js/capturendcorrelate/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/js/capturendcorrelate/test/index.js" afterPath="$PROJECT_DIR$/src/main/js/capturendcorrelate/test/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/js/determineprocessor/DetermineProcessor.yaml" afterPath="$PROJECT_DIR$/src/main/js/determineprocessor/DetermineProcessor.yaml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/js/capturendcorrelate/node_modules/common/package.json" afterPath="$PROJECT_DIR$/src/main/js/capturendcorrelate/node_modules/common/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/js/capturendcorrelate/node_modules/common/util.js" afterPath="$PROJECT_DIR$/src/main/js/capturendcorrelate/node_modules/common/util.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/js/common/util.js" afterPath="$PROJECT_DIR$/src/main/js/common/util.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/js/determineprocessor/index.js" afterPath="$PROJECT_DIR$/src/main/js/determineprocessor/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/js/determineprocessor/package.json" afterPath="$PROJECT_DIR$/src/main/js/determineprocessor/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/js/determineprocessor/node_modules/common/package.json" afterPath="$PROJECT_DIR$/src/main/js/determineprocessor/node_modules/common/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/js/determineprocessor/node_modules/common/util.js" afterPath="$PROJECT_DIR$/src/main/js/determineprocessor/node_modules/common/util.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/js/determineprocessor/test/index.js" afterPath="$PROJECT_DIR$/src/main/js/determineprocessor/test/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/js/invokeimgstepfunction/InvokeImgStepFunction.yaml" afterPath="$PROJECT_DIR$/src/main/js/invokeimgstepfunction/InvokeImgStepFunction.yaml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/js/invokeimgstepfunction/deploy.sh" afterPath="$PROJECT_DIR$/src/main/js/invokeimgstepfunction/deploy.sh" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/js/invokeimgstepfunction/index.js" afterPath="$PROJECT_DIR$/src/main/js/invokeimgstepfunction/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/js/invokeimgstepfunction/node_modules/common/package.json" afterPath="$PROJECT_DIR$/src/main/js/invokeimgstepfunction/node_modules/common/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/js/invokeimgstepfunction/node_modules/common/util.js" afterPath="$PROJECT_DIR$/src/main/js/invokeimgstepfunction/node_modules/common/util.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/js/invokeimgstepfunction/node_modules/uuid/.npmignore" afterPath="$PROJECT_DIR$/src/main/js/invokeimgstepfunction/node_modules/uuid/.npmignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/js/invokeimgstepfunction/node_modules/uuid/.travis.yml" afterPath="$PROJECT_DIR$/src/main/js/invokeimgstepfunction/node_modules/uuid/.travis.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/js/invokeimgstepfunction/node_modules/uuid/HISTORY.md" afterPath="$PROJECT_DIR$/src/main/js/invokeimgstepfunction/node_modules/uuid/HISTORY.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/js/invokeimgstepfunction/node_modules/uuid/LICENSE.md" afterPath="$PROJECT_DIR$/src/main/js/invokeimgstepfunction/node_modules/uuid/LICENSE.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/js/invokeimgstepfunction/node_modules/uuid/README.md" afterPath="$PROJECT_DIR$/src/main/js/invokeimgstepfunction/node_modules/uuid/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/js/invokeimgstepfunction/node_modules/uuid/lib/rng-browser.js" afterPath="$PROJECT_DIR$/src/main/js/invokeimgstepfunction/node_modules/uuid/lib/rng-browser.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/js/invokeimgstepfunction/node_modules/uuid/lib/rng.js" afterPath="$PROJECT_DIR$/src/main/js/invokeimgstepfunction/node_modules/uuid/lib/rng.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/js/invokeimgstepfunction/node_modules/uuid/package.json" afterPath="$PROJECT_DIR$/src/main/js/invokeimgstepfunction/node_modules/uuid/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/js/invokeimgstepfunction/package.json" afterPath="$PROJECT_DIR$/src/main/js/invokeimgstepfunction/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/js/invokeimgstepfunction/test/index.js" afterPath="$PROJECT_DIR$/src/main/js/invokeimgstepfunction/test/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/js/metaextractor/index.js" afterPath="$PROJECT_DIR$/src/main/js/metaextractor/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/js/metaextractor/node_modules/common/package.json" afterPath="$PROJECT_DIR$/src/main/js/metaextractor/node_modules/common/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/js/metaextractor/node_modules/common/util.js" afterPath="$PROJECT_DIR$/src/main/js/metaextractor/node_modules/common/util.js" />
     </list>
     <ignored path="proceso-coordinate.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -45,7 +40,7 @@
     <favorites_list name="proceso-coordinate" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="ArchiveAndMeta.yaml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/env/dev/ArchiveAndMeta.yaml">
           <provider selected="true" editor-type-id="text-editor">
@@ -104,9 +99,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -235,6 +229,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -357,32 +352,32 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="26" width="1260" height="672" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Amazon EC2" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Amazon EC2" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -400,8 +395,12 @@
     <breakpoint-manager />
     <watches-manager />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/js/functions/ArchiveAndMeta.js">
+    <entry file="file://$PROJECT_DIR$/config/env/dev/ArchiveAndMeta.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -409,7 +408,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cf/functions/DetermineProcessor.yaml">
+    <entry file="file://$PROJECT_DIR$/config/env/dev/ArchiveAndMeta.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -417,30 +416,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cf/functions/CaptureAndCorrelate.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cf/functions/ArchiveAndMeta.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flow/proceso.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-150">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/js/functions/ArchiveAndMeta.js" />
+    <entry file="file://$PROJECT_DIR$/cf/functions/DetermineProcessor.yaml" />
+    <entry file="file://$PROJECT_DIR$/cf/functions/CaptureAndCorrelate.yaml" />
+    <entry file="file://$PROJECT_DIR$/cf/functions/ArchiveAndMeta.yaml" />
+    <entry file="file://$PROJECT_DIR$/flow/proceso.json" />
     <entry file="file://$PROJECT_DIR$/config/env/dev/ArchiveAndMeta.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">

@@ -12,12 +12,12 @@ const s3 = new aws.S3({ apiVersion: '2006-03-01',
 
 exports.handler = (event, context, callback) => {
     
+    var functionName = context.functionName;
     var correlationId=event.correlationId;
-    common.setup(correlationId);
+    common.setup(correlationId,functionName);
     var sequenceId = event.sequenceId+1;
-    var s3Artifact = event.s3Artifact; 
     
-    console.log("s3Artifact: ", s3Artifact); 
+    console.log("extracting metadata for: ", event.s3Path); 
    // todo extract out the meta data attributes and put in dynamodb.
 
     var response={};

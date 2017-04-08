@@ -6,7 +6,8 @@ const common= require('common');
 exports.handler = (event, context, callback) => {
 
     var correlationId = event.correlationId;
-    common.setup(correlationId);
+    var functionName = context.functionName;
+    common.setup(correlationId,functionName);
     var stateMachineArn = process.env.stateMachineArn;
 
    var s3Path   = event.s3Path
